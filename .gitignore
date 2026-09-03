@@ -1,8 +1,26 @@
+# OS
 .DS_Store
 Thumbs.db
+
+# Hexo
 db.json
-*.log
-node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+
+# Dependencies
+node_modules/
+
+# Editor
+.idea/
+.vscode/
+
+# Temporary
+*.log
+*.tmp
+*.temp
+
+# Environment
+.env
+.env.*
+!.env.example
